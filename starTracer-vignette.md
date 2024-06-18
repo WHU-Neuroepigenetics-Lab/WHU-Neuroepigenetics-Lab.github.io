@@ -9,6 +9,9 @@ work as a complementary pipeline to the Seurat "FindAllMarkers" function,
 offering a more accurate list of marker genes for each cluster in conjunction
 with Seurat results.
 
+
+**NOTE**: Testing data from mouse kidney and human PFC data is up-loaded in [Google-Drive](https://drive.google.com/file/d/1Ugx3OnIKJOL_dy-PElvArZTX47y_1Ffy/view?usp=drive_link)(for reviewers). Other data ([Human Heart](https://singlecell.broadinstitute.org/single_cell/study/SCP1303/single-nuclei-profiling-of-human-dilated-and-hypertrophic-cardiomyopathy), [Mouse Kidney](https://singlecell.broadinstitute.org/single_cell/study/SCP1245/targeting-a-braf-mapk-pathway-rescues-podocyte-lipid-peroxidation-in-coq-deficiency-kidney-disease)) could be obtained from Single Cell Portal.
+
 # 2 Vignette
 
 ## 2.1 INTRODUCTION
@@ -168,10 +171,8 @@ understand the influence of thresh.2 on your results.
 
 # Testing Scripts of filterMarker
 
-Here we show the results of filterMarker. filterMarker takes the output
-
-NOTE: Testing data from mouse kidney and human PFC data is up-loaded in [Google-Drive](). 
-matrix/data.frame of Seurat's FindAllMarkers function. Note that calculating
+Here we show the results of filterMarker. filterMarker takes the outputmatrix/data.frame of Seurat's FindAllMarkers function. Note that calculating
 with samples of big cell numbers will be time consumable.
 
 [filterMarker test](https://jerryzhang-1222.github.io/FilterMarkerTest_v3.html)
+
