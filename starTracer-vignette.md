@@ -136,6 +136,7 @@ accuracy in three samples:
 [mouse kidney](https://jerryzhang-1222.github.io/kidney.html)
 
 ## Systematically Evaluating FPR in Generated Single Cell Data
+[fpr evaluation](https://jerryzhang-1222.github.io/FPR.html)
 
 ## Comparisons with Multiple Methods
 
@@ -168,6 +169,8 @@ understand the influence of thresh.2 on your results.
 # Testing Scripts of filterMarker
 
 Here we show the results of filterMarker. filterMarker takes the output
+
+NOTE: Testing data from mouse kidney and human PFC data is up-loaded in [Google-Drive](). 
 matrix/data.frame of Seurat's FindAllMarkers function. Note that calculating
 with samples of big cell numbers will be time consumable.
 
